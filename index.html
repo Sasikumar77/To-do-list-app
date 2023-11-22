@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>To-do</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- nav-container which contains navigation bar and backround image-->
+    <div class="nav-container">
+        <h1>Daily tasks</h1>
+        <div id="side-bar"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <!-- input-container which contains task add input and priority select input -->
+    <div id="input-container">
+        <div id="add-input"><input type="text" name="" id="task-input" placeholder="Add task"><div><i class="fa-solid fa-plus"></i></div></div>
+        <select name="" id="priority-input">
+            <option value="1"><div></div><p>High</p></option>
+            <option value="2"><div></div><p>Mid</p></option>
+            <option value="3"><div></div><p>Low</p></option>
+        </select>
+    </div>
+    <!-- task-container which contains task lists -->
+    <div id="task-container">
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
