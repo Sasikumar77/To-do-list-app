@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;;
+}
+.nav-container{
+    width:100%;
+    height: 15rem;
+    display: flex;
+    justify-content: end;
+    background: rgb(65,88,255);
+background: linear-gradient(90deg, rgba(65,88,255,1) 3%, rgba(87,215,255,1) 71%);
+
+}
+.nav-container div{
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem 2rem;
+}
+#input-container{
+    margin-left: 25%;
+    z-index: 5;
+    position:relative;
+    bottom: 1.9rem;
+    display: flex;
+}
+#input-container input{
+    padding: 2%;
+    width: 88%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    outline: none;
+}
+
+#input-container select{
+    padding: 1%;
+    width: 8%;
+    outline: none;
+    z-index: 5;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+#task-container{
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    height: max-content;
+}
+#add-input{
+    display: flex;
+    width: 60%;
+}
+#add-input div{
+    width: 9%;
+    background-color: rgb(31, 139, 255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.fa-plus{
+    margin: 1.3rem;
+    color: white;
+    scale: 1.4;
+}
+.task{
+    display: flex;
+    margin: 1.5%;
+    padding: 1.5%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.task p {
+    margin-left: 3%;
+    width: 91%;    
+}
+.fa-trash{
+    scale: 0.9;
+}
+.fa-trash:hover{
+    color: rgba(255, 0, 0, 0.75);
+}
+.high{
+    border: 2px solid rgba(255, 0, 0, 0.753);
+}
+.mid{
+    border: 2px solid rgba(255, 255, 0, 0.793);
+}
+.low{
+    border: 2px solid  rgba(0, 195, 0, 0.772);
+}
+
+h1{
+    color: white;
+    position: relative;
+    font-size: 3rem;
+    right: 54%;
+    top: 40%;
+}
+
+
+
